@@ -1,19 +1,27 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 h1{
     text-align: center;
+    
 }
 table {
     border-collapse: collapse; /* Gộp viền cho gọn */
     width: 80%;
     margin: 20px auto; /* căn giữa bảng */
+    border: 8px;
 }
 
 tr, td {
-    border: 1px solid black;/*viền 1px, màu đen*/
+    border: 2px solid black;/*viền 1px, màu đen*/
     padding: 8px; /*khoảng cách trong ô*/
-    text-align: left;
 }
 
 th {
     background-color: #f2f2f2; /* nền cho hàng tiêu đề */
-    border: 1px solid black;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.item{
+    text-align: center;
 }
